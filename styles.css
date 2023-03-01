@@ -47,13 +47,13 @@ html, body{
   }
 
 @media only screen 
-    and (device-width: 375px){
+    and (device-width: 375px) and (device-height: 812px){
     .left {
         background-image: url(images/image-product-mobile.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height:50%;
+        height:100%;
         width:100%;
         border-bottom-left-radius: unset;
         border-top-right-radius: 10px;
