@@ -120,18 +120,12 @@ p{
     and (-webkit-device-pixel-ratio: 3) {
     .flex-container{
     display: flex;
+    flex-direction: column;
     font-size: 30px;
     align-items: center;
     justify-content: center;
     height:100%;
 }
-@media (max-width: 600px) {
-    .flex-container {
-      flex-direction: column;
-      padding:15px 10px 15px 10px;
-      height:90%;
-    }
-  }
 
 .left{
     background-image: url(images/image-product-desktop.jpg);
@@ -144,18 +138,7 @@ p{
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
-@media (max-width: 600px) {
-    .left {
-        background-image: url(images/image-product-mobile.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height:300px;
-        width:100%;
-        border-bottom-left-radius: unset;
-        border-top-right-radius: 10px;
-    }
-  }
+        
 .right{
     padding:20px 30px 20px 30px;
     width:350px;
@@ -167,13 +150,6 @@ p{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-@media (max-width: 600px) {
-    .right {
-        width:100%;
-        border-top-right-radius: unset;
-        border-bottom-left-radius: 10px;
-    }
-  }
 h3{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
