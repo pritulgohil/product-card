@@ -45,18 +45,6 @@ html, body{
         border-top-right-radius: 10px;
     }
   }
-@media (min-width: 375px) {
-    .left {
-        background-image: url(images/image-product-mobile.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height:100%;
-        width:100%;
-        border-bottom-left-radius: unset;
-        border-top-right-radius: 10px;
-    }
-  }
 .right{
     padding:20px 30px 20px 30px;
     width:350px;
