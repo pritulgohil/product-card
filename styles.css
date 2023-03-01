@@ -46,19 +46,21 @@ html, body{
     }
   }
 
-@media (max-width: 360px) {
-    .left {
-        background-image: url(images/image-product-mobile.jpg);
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .left{
+background-image: url(images/image-product-mobile.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height:50vh;
+        height:50%;
         width:100%;
         border-bottom-left-radius: unset;
         border-top-right-radius: 10px;
-    }
-  }
-
+}
+}
 
 .right{
     padding:20px 30px 20px 30px;
