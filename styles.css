@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.flex-container{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+@media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+      padding:15px 10px 15px 10px;
+      height:90%;
+    }
+  }
+
+.left{
+    background-image: url(images/image-product-desktop.jpg);
+    width:350px;
+    object-fit:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+@media (max-width: 600px) {
+    .left {
+        background-image: url(images/image-product-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:300px;
+        width:100%;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 10px;
+    }
+  }
+.right{
+    padding:20px 30px 20px 30px;
+    width:350px;
+    height:600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+@media (max-width: 600px) {
+    .right {
+        width:100%;
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 10px;
+    }
+  }
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:1rem;
+    color:hsl(228, 12%, 48%);
+    font-weight: 300;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color:hsl(228, 12%, 48%);
+    font-size:1rem;
+}
+
+.value{
+    font-family: 'Fraunces', serif;
+    color: #3e8168;
+    font-size:2.3rem;
+    margin:0;
+}
+
+.strike{
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+    font-size:1rem;
+    vertical-align: middle;
+}
+
+.btn{
+    width:100%;
+    padding:15px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#3e8168;
+    border-style: none;
+    color:white;
+    border-radius: 10px;
+    font-size:1rem;
+    margin-top:20px;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: #46a985;
+}
