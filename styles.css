@@ -33,7 +33,18 @@ html, body{
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
-
+@media (max-width: 600px) {
+    .left {
+        background-image: url(images/image-product-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:300px;
+        width:100%;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 10px;
+    }
+  }
 .right{
     padding:20px 30px 20px 30px;
     width:350px;
@@ -101,13 +112,4 @@ p{
 .btn:hover{
     cursor:pointer;
     background-color: #46a985;
-}
-
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-    body,html{
-        background-color:black;
-}
 }
