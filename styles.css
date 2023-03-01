@@ -45,13 +45,6 @@ html, body{
         border-top-right-radius: 10px;
     }
   }
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3) {
-    .left{
-    background-image: url(images/image-product-mobile.jpg);
-}
 
 .right{
     padding:20px 30px 20px 30px;
