@@ -47,7 +47,9 @@ html, body{
   }
 
 @media only screen 
-    and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
     .left {
         background-image: url(images/image-product-mobile.jpg);
         background-position: center;
@@ -56,11 +58,8 @@ html, body{
         height:100%;
         width:100%;
         border-bottom-left-radius: unset;
-        border-top-right-radius: 10px;
-    }    
+        border-top-right-radius: 10px;  
 }
-
-        
 
 .right{
     padding:20px 30px 20px 30px;
