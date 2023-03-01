@@ -134,7 +134,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:600px;
+    height:100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
